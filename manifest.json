@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Ome.TV Change Camera",
+    "description": "Bu eklenti Ayrz tarafından yapıldı hiç bir yasal sorumluluk kabul etmemektedir.",
+    "version": "1.0",
+    "permissions": ["activeTab","storage"],
+    "content_scripts": [
+      {
+        "matches": ["https://ome.tv/*", "http://ome.tv/*"], 
+        "js": ["content.js"]
+      }
+    ],
+    "author": "Ayrz",
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon16.png"
+    }
+  }
+  
